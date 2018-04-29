@@ -11,7 +11,7 @@ body {
 	max-width: 940px;
 	margin: 0 auto;
 }
-
+/* 
 .container::before, .container::after {
 	content: " ";
 	display: table;
@@ -20,16 +20,17 @@ body {
 .container::after {
 	clear: both;
 	} 
-
+ */
 
 h2 {
 	color: #222222;
 	font-family: Montserrat;
 	font-size: 40px;
 	font-weight: 700;
-	line-height: 75px;
+	/* line-height: 75px; */
 	text-transform: uppercase;
 	letter-spacing: -1px;
+	margin: 0;
 	}
 
 h3 {
@@ -37,6 +38,30 @@ h3 {
 	font-family: "Sorts Mill Goudy";
 	font-size: 16px;
 	font-style: italic;
+	margin: 8px 0 0;
+}
+
+h5 {
+	color: #222222;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: -0.45px;
+	margin: 0;
+}
+
+p {
+	color: #777777;
+	font-family: "Roboto Slab";
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: -0.35px;
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
 }
 
 .main_btn {
@@ -89,9 +114,9 @@ h3 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 100%;
-	max-width: 940px;
-	margin: 0 auto;
+/* 	width: 100%;
+max-width: 940px;
+margin: 0 auto; */
 }
 
 .logo {
@@ -103,8 +128,6 @@ h3 {
 .menu {
 	display: flex;
 	margin: 0;
-	list-style-type: none;
-	padding: 0;
 }
 
 .menu li {
@@ -127,4 +150,66 @@ h3 {
 	font-weight: 400;
 	line-height: 41px;
 	text-transform: uppercase;
+}
+
+
+/* ---SERVICES--- */
+
+#services {
+	padding:120px 0 110px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.servicesList {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin: 65px 0 0;
+}
+
+.servicesListItem {
+	margin: 10px 26px;
+	display: block;
+}
+
+.servicesCircle {
+	width: 68px;
+	height: 67px;
+	border: 3px solid #fed136;
+	background-color: #ffffff;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.eCommerceIcon {
+	background-image: url(../images/services/icon-basket.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.responsiveWebIcon {
+	background-image: url(../images/services/icon-laptop.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.webSecurityIcon {
+	background-image: url(../images/services/icon-locked.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.servicesListItem h5 {
+	margin: 25px 0 18px;
+}
+
+
+
+/* ---PORTFOLIO--- */
+
+#portfolio {
+	padding:120px 0;
 }
