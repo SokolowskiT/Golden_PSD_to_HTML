@@ -14,16 +14,9 @@ body {
 	max-width: 940px;
 	margin: 0 auto;
 }
-/* 
-.container::before, .container::after {
-	content: " ";
-	display: table;
-	}
-	
-.container::after {
-	clear: both;
-	} 
- */
+
+ 
+ 
 
 h2 {
 	color: #222222;
@@ -256,4 +249,107 @@ margin: 0 auto; */
 
 #aboutUs {
 	padding: 120px 0;
+	text-align: center;
+
 }
+
+.aboutUsContent {
+margin-top: 70px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.line {
+	width: 2px;
+	height: 1100px;
+	background-color: #f1f1f1;
+	position: relative;
+}
+
+div[class^="aboutUsContentItem"] {
+		display: flex;
+	
+justify-content: center;
+
+width: 500px;
+position: absolute;
+
+}
+
+.aboutUsItemDescR {
+text-align: left;
+}
+
+.aboutUsItemDescL {
+text-align: right;
+}
+
+
+.aboutUsContent img, .aboutUsItemCircle {
+	border: 7px solid #f1f1f1;
+	border-radius: 50%;
+width: 169px;
+height: 170px;
+
+}
+
+
+.line div:nth-child(odd) {
+right: -82.5px;
+
+flex-direction: row-reverse;
+}
+
+.line div:nth-child(odd) img {
+	margin-left: 40px;
+}
+
+
+.line div:nth-child(even) {
+left: -83.5px;
+
+
+}
+
+.line div:nth-child(even) img {
+	margin-right: 40px;
+}
+
+.aboutUsContentItem2 {
+	top: 265px;
+}
+
+.aboutUsContentItem3 {
+	top: 530px;
+}
+
+.aboutUsContentItem4 {
+	top: 795px;
+}
+
+.aboutUsContentItem5 {
+	top: 1060px;
+}
+
+.aboutUsItemCircle {
+	background-color: #fed136; 
+
+}
+
+.aboutUsItemCircle p {
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+color: #ffffff;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: -0.45px;
+margin-top: 34px;
+
+}
+
+.aboutUsContentItem5 {
+	left: -250px;
+}
+
