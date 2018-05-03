@@ -441,6 +441,54 @@ margin: 0;
 #contactUs {
 	padding: 120px 0;
 	text-align: center;
+	background-color: #222222;
+	background-image: url(../images/contact/map-image.png);
+	background-position: 55vw 17vh;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+
+#contactUs h2 {
+	color: #ffffff;
+}
+
+.contactUsForm {
+	margin-top: 70px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+
+}
+.contactUsFormInput, .contactUsForm textarea {
+	width: 48%;
+	margin-bottom: 29px;
+	padding:0;
+	text-transform: uppercase;
+	
+}
+
+.contactUsFormInput {
+	display: flex;
+	flex-direction: column;
+	margin-right: 1%;
+}
+.contactUsFormInput input {
+	line-height: 50px;
+	margin-bottom: 29px;
+	border: 1px solid #cccccc;
+	text-transform: uppercase;
+}
+
+.contactUsForm textarea{
+	line-height: 50px;
+	margin-left: 1%;
+}
+
+
+.contactUsFormInput input:last-child {
+	margin-bottom: 0;
 }
 
 
@@ -448,4 +496,23 @@ margin: 0;
 
 #footer {
 	padding: 18px 0 29px;
+	display: flex;
+	align-items: center;
+
+}
+
+#footer p {
+	color: #555555;
+	font-family: Montserrat;
+}
+
+#footer ul {
+	margin: 0  0 0 12.5%;
+
+}
+
+
+.black_btn {
+background-color: #222222;
+color: #ffffff;
 }
